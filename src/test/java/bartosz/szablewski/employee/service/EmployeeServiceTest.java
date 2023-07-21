@@ -29,7 +29,7 @@ class EmployeeServiceTest {
     }
 
     @Test
-    public void whenListBooks_ThenBooksRetrieved() {
+    public void shouldReturnNotEmptyEmployeeList() {
 
         //given
         long employeeId = 0L;
